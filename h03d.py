@@ -1,30 +1,24 @@
 #Daniil Meijel
-#10.10.22
-#Harjutame kilpkonna
-import turtle
+#11.10.22
+#Ülesanne03
 
-#tekitame akna
-aken = turtle.Screen()
-aken.setup(300,300)
-aken.title("Ülesanne 3 - MM")
+#korralik nimi
+nimi = input("Sisesta nimi: ")
+puh_nimi = nimi.strip().capitalize()
 
-
-
-k1 = turtle.Turtle()
-for i in range (3) :
-    k1.fd(100)
-    k1.rt(120)
-    k1.rt(120)
-
-k2 = turtle.Turtle()
-for i in range (3)
-    k2
-    
-    
-    
+print("Tere,", puh_nimi+"!")
 
 
 
 
 
-turtle.exitonclick()
+
+
+
+
+
+
+
+
+
+
